@@ -8,9 +8,11 @@ cffi
 cryptography
 cx-Freeze; sys_platform == 'win32'
 pywin32; sys_platform == 'win32'
-shiv; sys_platform == 'linux'
+
+shiv; sys_platform == 'linux' or sys_platform == 'darwin'
+
 # packaging script on linux expects pipenv
-pipenv; sys_platform == 'linux'
+pipenv; sys_platform == 'linux' or sys_platform == 'darwin'
 idna
 netifaces
 paramiko

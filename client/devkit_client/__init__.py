@@ -535,6 +535,10 @@ def _fix_key_permissions(key_path, pubkey_path):
         # enforce/fix file permissions
         os.chmod(key_path, 0o400)
         os.chmod(pubkey_path, 0o400)
+    elif platform.system() == 'Darwin':
+        # enforce/fix file permissions
+        os.chmod(key_path, 0o400)
+        os.chmod(pubkey_path, 0o400)
     else:
         # fix permissions for private keys the windows way, keep ssh happy
         # do not rely on get_username here, use the full domain\name of the current user - some systems fail if you just give username
