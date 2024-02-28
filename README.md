@@ -1,10 +1,10 @@
 
 # What the hell is this?
 
-This is a bare minimum hack to get the streamos-devkit to work on macOS. If you have a non-standard ssh password (ie, you set one at all), you will have to keep an eye on the terminal, it will ask for it every time. I know why it does this I just haven't gotten around to fixing it yet.
+This is a bare minimum hack to get the streamos-devkit to work on macOS. If you have a non-standard ssh password (ie, you set one at all), you will have to keep an eye on the terminal, it will ask for it every time. I know why it does this, I just haven't gotten around to fixing it.
 
 
-The steps to running is are the same as Linux.
+The steps to get this running are the same as Linux.
 
 Dont try and package it... obviously.
 
