@@ -1,4 +1,14 @@
 
+# What the hell is this?
+
+This is a bare minimum hack to get the streamos-devkit to work on macOS. If you have a non-standard ssh password (ie, you set one at all), you will have to keep an eye on the terminal, it will ask for it every time. I know why it does this I just haven't gotten around to fixing it yet.
+
+
+The steps to running is are the same as Linux.
+
+Dont try and package it... obviously.
+
+
 # Windows development: one time system configuration
 
 Please adapt these instructions to your setup. The steps outlined here were tested to work.
